@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="ligth">
+    <div class="container">
+        <div class="gastos">
+            <form action="" class="formulario">
+                <div class="inputs">
+                    <h3>Dividir Gastos</h3>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                    <input type="number" name="gasto" id="gasto" placeholder="Importe" required>
+                    <input type="submit" value="Enviar" id="enviar">
+                </div>
+                
+            </form>
+        </div>
+
+        <div class="mapa-gastos">
+            
+            <div class="componentes">
+                
+                <div class="resultadoFinal">
+                    <p class="gastoTotal"></p>
+    
+                    <p class="cada-uno"></p>
+
+                    
+                </div>
+
+                <button id="borrar" style="display: none;">Borrar todo</button>
+            </div>
+
+            
+        </div>
+
+        <!--<button id="boton">CLICK</button>-->
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
